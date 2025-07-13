@@ -44,7 +44,8 @@ Source: [Kaggle - Telecom Customer Churn Dataset](https://www.kaggle.com/dataset
 ## Data Cleaning & Preparation
 Data was cleaned and structured using **Microsoft Excel**. Key cleaning steps:
 1. Data Structuring
-  The raw dataset was converted into an Excel Table for efficient referencing and filtering.
+
+The raw dataset was converted into an Excel Table for efficient referencing and filtering.
 Column data types were reviewed and corrected:
    - Text fields (e.g., Gender, City, Offer) were formatted as Text.
    - Numeric fields (e.g., Age, Tenure Months) were formatted as Number.
@@ -114,7 +115,7 @@ The customer churn analysis dashboard was built using Microsoft Excel, leveragin
 
 The dashboard is organized into two main views:
 
-- **Dashboard 1: Churn Overview**  
+**Dashboard 1: Churn Overview**  
 A high-level summary of overall customer and churn performance:
 - KPIs: Total Revenue, Total Customers, Churn Rate, Active Customers
 - Financial Metrics: Revenue Lost to Churn, Average Monthly Charges
@@ -124,7 +125,7 @@ A high-level summary of overall customer and churn performance:
   - Contract Type
 - Customer distribution by Promotional Offer
 
-- **Dashboard 2: Churn Drivers**
+**Dashboard 2: Churn Drivers**
 A deeper look into specific variables and patterns associated with churn:
 - Churn Reason Breakdown (why customers are leaving)
 - Average Tenure by Churn Status (Stayed vs Churned)
