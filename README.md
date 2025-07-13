@@ -43,18 +43,18 @@ Source: [Kaggle - Telecom Customer Churn Dataset](https://www.kaggle.com/dataset
 
 ## Data Cleaning & Preparation
 Data was cleaned and structured using **Microsoft Excel**. Key cleaning steps:
-- 1. Data Structuring
+1. Data Structuring
 The raw dataset was converted into an Excel Table for efficient referencing and filtering.
 Column data types were reviewed and corrected:
-- Text fields (e.g., Gender, City, Offer) were formatted as Text.
-- Numeric fields (e.g., Age, Tenure Months) were formatted as Number.
-- Financial fields (e.g., Monthly Charges, Total Revenue) were formatted as Currency (2 decimal places)
+   - Text fields (e.g., Gender, City, Offer) were formatted as Text.
+   - Numeric fields (e.g., Age, Tenure Months) were formatted as Number.
+   - Financial fields (e.g., Monthly Charges, Total Revenue) were formatted as Currency (2 decimal places)
 
-- 2. Handling Missing Values
-- Missing values in the Churn Category for active customers were replaced with "Active Customer" to maintain differentiation.
-- Blank or missing entries in service-related fields were filled based on business rules from the data dictionary.
+2. Handling Missing Values
+    - Missing values in the Churn Category for active customers were replaced with "Active Customer" to maintain differentiation.
+    - Blank or missing entries in service-related fields were filled based on business rules from the data dictionary.
 
-- 3. Service-Based Logic Corrections based on the Data dictionary
+3. Service-Based Logic Corrections based on the Data dictionary
 **Phone Service:**
 For customers where Phone Service = "No":
 - Avg Monthly Long Distance Charges was set to 0
@@ -74,11 +74,11 @@ For customers where Internet Service = "No":
   - Streaming Music  
   - Unlimited Data
 
-- 4. Text Consistency Checks
+4. Text Consistency Checks
 - Used functions like LEN() and to verify data entry
 - Found no inconsistencies requiring trimming
 
-- 5. Outlier & Consistency Checks
+5. Outlier & Consistency Checks
 - Visually reviewed key financials (e.g., Monthly Charges, Total Charges)
 - Confirmed logical relationships between service fields
 
