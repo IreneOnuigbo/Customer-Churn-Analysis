@@ -44,7 +44,7 @@ Source: [Kaggle - Telecom Customer Churn Dataset](https://www.kaggle.com/dataset
 ## Data Cleaning & Preparation
 Data was cleaned and structured using **Microsoft Excel**. Key cleaning steps:
 1. Data Structuring
-The raw dataset was converted into an Excel Table for efficient referencing and filtering.
+  The raw dataset was converted into an Excel Table for efficient referencing and filtering.
 Column data types were reviewed and corrected:
    - Text fields (e.g., Gender, City, Offer) were formatted as Text.
    - Numeric fields (e.g., Age, Tenure Months) were formatted as Number.
@@ -55,12 +55,15 @@ Column data types were reviewed and corrected:
     - Blank or missing entries in service-related fields were filled based on business rules from the data dictionary.
 
 3. Service-Based Logic Corrections based on the Data dictionary
+
 **Phone Service:**
+
 For customers where Phone Service = "No":
 - Avg Monthly Long Distance Charges was set to 0
 - Multiple Lines was set to "No"
 
 **Internet Service:**
+
 For customers where Internet Service = "No":
 - Internet Type was set to "None"
 - Avg Monthly GB Download was set to 0
