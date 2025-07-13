@@ -116,6 +116,7 @@ The customer churn analysis dashboard was built using Microsoft Excel, leveragin
 The dashboard is organized into two main views:
 
 **Dashboard 1: Churn Overview**  
+
 A high-level summary of overall customer and churn performance:
 - KPIs: Total Revenue, Total Customers, Churn Rate, Active Customers
 - Financial Metrics: Revenue Lost to Churn, Average Monthly Charges
@@ -126,6 +127,7 @@ A high-level summary of overall customer and churn performance:
 - Customer distribution by Promotional Offer
 
 **Dashboard 2: Churn Drivers**
+
 A deeper look into specific variables and patterns associated with churn:
 - Churn Reason Breakdown (why customers are leaving)
 - Average Tenure by Churn Status (Stayed vs Churned)
