@@ -14,7 +14,7 @@ Customer Churn Analysis using Excel Dashboards and KPIs based on Maven Analytics
 - [Conclusion](#conclusion)
 
 ## Project Overview
-This project focuses on analyzing customer churn in the telecom industry using a dataset from Kaggle. The analysis aims to uncover patterns and insights around why customers leave and what factors contribute to churn. Through a series of KPI metrics and interactive dashboards built in Microsoft Excel, the project explores customer behavior, contract types, payment methods, internet services, and churn reasons to support data-driven decision-making.
+This project focuses on analyzing customer churn in the telecom industry using a dataset from Kaggle. The analysis aims to uncover patterns and insights around why customers leave and what factors contribute to churn. Through a series of KPI metrics and interactive dashboards built in Microsoft Excel, the project explores customer behavior, contract types, payment methods, internet services, and churn reasons to support data-driven decision-making. 
 
 ## Objectives
 The objective of this analysis is to understand and reduce customer churn by identifying key factors that influence customer retention and attrition. Using Excel-based dashboards, the project addresses the following business questions:
